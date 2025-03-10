@@ -1,0 +1,31 @@
+ERROR: 2024-12-31 14:48:49 - The instance of entity type 'EmpleadoEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+ERROR: 2025-01-03 09:10:59 - Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Empleado.Entity.Entitys.EmpleadoEntity, Empleado.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Empleado.Application.DTOs.EmpleadoDTO, Empleado.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ERROR: 2025-01-07 14:52:49 - Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Empleado.Entity.Entitys.EmpleadoEntity, Empleado.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Empleado.Application.DTOs.EmpleadoDTO, Empleado.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ERROR: 2025-01-07 14:54:18 - Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Empleado.Entity.Entitys.EmpleadoEntity, Empleado.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Empleado.Application.DTOs.EmpleadoDTO, Empleado.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ERROR: 2025-01-07 15:03:20 - Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Empleado.Entity.Entitys.EmpleadoEntity, Empleado.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Empleado.Application.DTOs.EmpleadoDTO, Empleado.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ERROR: 2025-01-07 15:06:06 - Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Empleado.Entity.Entitys.EmpleadoEntity, Empleado.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Empleado.Application.DTOs.EmpleadoDTO, Empleado.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ERROR: 2025-01-07 15:09:09 - Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Empleado.Entity.Entitys.EmpleadoEntity, Empleado.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Empleado.Application.DTOs.EmpleadoDTO, Empleado.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
