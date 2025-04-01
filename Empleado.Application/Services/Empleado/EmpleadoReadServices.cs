@@ -68,7 +68,7 @@ namespace Empleado.Application.Services.Empleado
                 var result = await _unitOfWork.empleadoRepository.GetAsync(id);
 
                 if (result is null)
-                    return await Response.Error<EmpleadoResponse>(HttpStatusCode.NotFound, Resources.MessagesResource.EmpleadoServicioOkFoundById);
+                    return await Response.Error<EmpleadoResponse>(HttpStatusCode.NotFound, Resources.MessagesResource.EmpleadoServicioNotFoundById);
 
                 var response = _mapper.Map<EmpleadoResponse>(result);
 
