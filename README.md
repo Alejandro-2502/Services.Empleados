@@ -5,6 +5,7 @@ Se implemento los siguientes patrones (UnitOfWork - Clean Arqchitect)
 Se aplica Principios SOLID. Para el manejo, mantenimiento y acceso a la base de datos, se emplea OMR ( EntityFramework ) 
 Ademas se aplica Inyeccion de Dependencias (DI) 
 Tambien, se utiliza (FluentValidation), a fin de aplicar validaciones basicas a el INPUT de los request,utilizado en el controller ( EmpleadoWriteController )
+Por ultimo, se agrega una capa para realizar los Unitest
 
 El diseño empleado consta de las siguientes capas que se mencionan a continuación:
 
@@ -60,6 +61,13 @@ Capa Infraestructura:
 		- Repository ( Contiene un Generic ( T )
 	- UnitOfWork: La interfaz, donde se construye la configuración de las interfaces, menciona (IProductoCommandRepository y IProductoQuerysRepository)
 
+Capa Testing:
+
+	- ReadTest ( Contiene los Tests, segun los casos contemplados, para los tipos de busquedas )
+ 	- ReadMock ( Contiene el generador de datos, para cada estructura, que corresponda )
+  	- WriteTest ( Contiene los Tests, segun los casos contemplados, para los tipos de operaciones INSERT y UPDATE )
+   	- WriteMock ( Contiene el generador de datos, para cada estructura, que corresponda )
+	
 Nota: Como una simple aclaracion, es tan solo un ejemplo, de una forma de muchas existentes, para realizar este desarrollo. 
 		Es tan solo a modo de ejemplo
 
